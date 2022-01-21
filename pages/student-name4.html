@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style-student-name.css">
+    <title>اسم الطالب</title>
+</head>
+<body>
+    <div class="container">
+        <header><h3>بيانات شخصيه</></header>
+        
+        <div class="child1">
+            <div class="custom-select" style="width:200px;">
+              <h2>إختر اسم الطالب</h2>
+              <div class="box">
+                <select onchange="javascript:handleSelect(this)">
+                  <option>مصعب محمد داؤد</option>
+                  <option class="option-c">عبدالرحمن الطيب</option>
+                  <option class="option-c" value="student5.html">إبراهيم فيصل محمد</option>
+                  <option class="option-c">محمد احمد الشيخ</option>
+                  <option class="option-c" value="all.html">الجميع</option>
+                </select>
+              </div>
+                
+              </div>
+            
+        </div>
+        <footer>
+            <div class="my-t-container">
+                made by
+                <a class="my-twitter" href="https://twitter.com/ht00na">
+                    <span class="span1">mohammed haitham</span>
+                    <span class="span2">hp</span>
+                </a>
+            </div>
+        </footer>
+    </div>
+  <script>
+    function handleSelect(elm){
+      window.location = elm.value;
+    }
+  </script>
+
+    
+</body>
+</html>

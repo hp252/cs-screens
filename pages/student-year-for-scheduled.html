@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style-academic.css">
+    <title>الاستفسارات</title>
+</head>
+<body>
+    <div class="container">
+        <header><h3>بيانات شخصيه</h3></header>
+        
+        <div class="child1">
+            <div class="custom-select" style="width:200px;">
+              <h2>حدد السنه الدراسيه</h2>
+              <div class="box">
+                <select onchange="javascript:handleSelect(this)">
+                  
+                  <option value="1">العام الدراسي الاول</option>
+                  <option value="2">العام الدراسي الثاني</option>
+                  <option value="student-name-for-scheduled.html">العام الدراسي الثالث</option>
+                  <option value="4">العام الدراسي الرابع</option>
+            
+                </select>
+              </div>
+              </div>
+            
+        </div>
+        <footer>
+            <div class="my-t-container">
+                made by
+                <a class="my-twitter" href="https://twitter.com/ht00na">
+                    <span class="span1">mohammed haitham</span>
+                    <span class="span2">hp</span>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script>
+      function handleSelect(elm){
+        window.location = elm.value;
+      }
+    </script>
+</body>
+</html>

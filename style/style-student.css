@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: rgb(218, 218, 218);
+    user-select: none;
+  }
+  
+  .container{
+      display: flex;
+      flex-direction: column;
+      min-height: 95vh;
+      min-width: 2vh;
+  }
+  
+  header{
+      flex-shrink: 0;
+  }
+  
+  footer{
+      flex-shrink: 0;
+  }
+  .child1{
+      flex-grow: 1;
+      background:linear-gradient(rgb(59, 143, 221),rgb(31, 53, 138));
+      border: solid black 2px;
+      max-height: 89vh;
+  }
+  
+  .button-container{
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      padding-right: 53vh;
+      padding-top: 12vh;
+      gap: 6vh;
+      flex-wrap:wrap ;
+  }
+  
+  .button1{
+      width: 50vh;
+      height: 8vh;
+      background:linear-gradient(white,rgb(136, 124, 124));
+      border-radius: 2px;
+      padding-top: 3px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 8.5vh;
+      cursor: pointer;
+      border: solid black 1px;
+  }
+  
+  .button2{
+      width: 50vh;
+      height: 8vh;
+      background-color: rgb(255, 255, 255);
+      border-radius: 2px;
+      padding-top: 3px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 8.5vh;
+      cursor: pointer;
+      border: solid black 2px;
+  }
+  
+
+  .button3{
+    width: 50vh;
+    height: 8vh;
+    background:linear-gradient(white,rgb(136, 124, 124));
+    border-radius: 2px;
+    padding-top: 3px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 8.5vh;
+    cursor: pointer;
+    border: solid black 1px;
+
+}
+.button4{
+  width: 50vh;
+  height: 8vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  padding-top: 3px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 8.5vh;
+  cursor: pointer;
+  border: solid black 2px;
+  font-family: system-ui;
+}
+
+.button5{
+  width: 50vh;
+  height: 8vh;
+  background:linear-gradient(white,rgb(136, 124, 124));
+  border-radius: 2px;
+  padding-top: 3px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 8.5vh;
+  cursor: pointer;
+  border: solid black 1px;
+
+}
+
+.button6{
+  width: 50vh;
+  height: 8vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  padding-top: 3px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 8.5vh;
+  cursor: pointer;
+  border: solid black 2px;
+}
+
+.button7{
+  width: 50vh;
+  height: 8vh;
+  background:linear-gradient(white,rgb(136, 124, 124));
+  border-radius: 2px;
+  padding-top: 3px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 8.5vh;
+  cursor: pointer;
+  border: solid black 1px;
+
+}
+
+.button8{
+  width: 50vh;
+  height: 8vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  padding-top: 3px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 8.5vh;
+  cursor: pointer;
+  border: solid black 2px;
+  font-family: system-ui;
+
+}
+
+  
+  h3{
+      margin:0;
+      text-align: center;
+      line-height: 6vh;
+      word-spacing: 1vh;
+      user-select: none;
+  }
+  
+  h2{
+      margin: 0;
+      position: relative;
+      display: inline-block;
+      top: 8vh;
+      right: 35vh;
+      font-size: 4vh;
+      user-select: none;
+      margin-right: 53vh;
+      background:linear-gradient(white,rgb(136, 124, 124));
+      padding: 2vh;
+      border: solid black 1px;
+  }
+  
+  .ba{
+      text-decoration: none;
+      color: black;
+  }
+  
+  .span2{
+      display: none;
+  }
+  
+  a{
+      color: blue;
+  }
+  .my-t-container{
+      position: relative;
+      top: .7vh;
+      right: 98vh;
+      width: 10vh;
+      height: 1vh;
+      display: inline;
+      word-spacing: 1.5vh;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  footer:hover .span1{
+      display: none;
+  }
+  
+  footer:hover .span2{
+      display: inline;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .custom-select {
+      position: relative;
+      font-family: Arial;
+      right: 91vh;
+      top: 17vh;
+    }
+    
+    .custom-select select {
+      display: none; /*hide original SELECT element:*/
+    }
+    
+    .select-selected {
+      background-color: DodgerBlue;
+    }
+    
+    /*style the arrow inside the select element:*/
+    .select-selected:after {
+      position: absolute;
+      content: "";
+      top: 14px;
+      right: 10px;
+      width: 0;
+      height: 0;
+      border: 6px solid transparent;
+      border-color: #fff transparent transparent transparent;
+    }
+    
+    /*point the arrow upwards when the select box is open (active):*/
+    .select-selected.select-arrow-active:after {
+      border-color: transparent transparent #fff transparent;
+      top: 7px;
+    }
+    
+    /*style the items (options), including the selected item:*/
+    .select-items div,.select-selected {
+      color: #ffffff;
+      padding: 8px 16px;
+      border: 1px solid transparent;
+      border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+      cursor: pointer;
+      user-select: none;
+    }
+    
+    /*style items (options):*/
+    .select-items {
+      position: absolute;
+      background-color: DodgerBlue;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 99;
+    }
+    
+    /*hide the items when the select box is closed:*/
+    .select-hide {
+      display: none;
+    }
+    
+    .select-items div:hover, .same-as-selected {
+      background-color: rgba(0, 0, 0, 0.1);
+    }

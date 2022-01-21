@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: rgb(218, 218, 218);
+    user-select: none;
+  }
+  
+  .container{
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      min-width: 2vh;
+  }
+  
+  header{
+      flex-shrink: 0;
+  }
+  
+  footer{
+      flex-shrink: 0;
+  }
+  .child1{
+      flex-grow: 1;
+      background:linear-gradient(rgb(59, 143, 221),rgb(31, 53, 138));
+      border: solid black 2px;
+      max-height: 88vh;
+  }
+  
+  .button-container{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      padding: 30vh;
+      gap: 8vh;
+  }
+  
+  .button1{
+      width: 50vh;
+      height: 10vh;
+      background-color: rgb(194, 187, 187);
+      border-radius: 3px;
+      padding-top: 3px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 8.5vh;
+      box-shadow: 2px 3px 0px 0 rgb(119 116 116);
+      cursor: pointer;
+  }
+  
+  .button2{
+      width: 50vh;
+      height: 10vh;
+      background-color: rgb(194, 187, 187);
+      border-radius: 3px;
+      padding-top: 3px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 8.5vh;
+      box-shadow: 2px 3px 0px 0 rgb(119 116 116);
+      cursor: pointer;
+  }
+  
+  .button1:hover{
+      width: 50vh;
+      height: 10vh;
+      background-color: rgb(185, 174, 174);
+      border-radius: 3px;
+      padding-top: 3px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 8.5vh;
+      box-shadow: 0px 0px 0px 0 rgb(119 116 116);
+      user-select: none;
+  }
+  
+  .button2:hover{
+      width: 50vh;
+      height: 10vh;
+      background-color: rgb(185, 174, 174);
+      border-radius: 3px;
+      padding-top: 3px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 8.5vh;
+      box-shadow: 0px 0px 0px 0 rgb(119 116 116);
+      user-select: none;
+  }
+  
+  h3{
+      margin:0;
+      text-align: center;
+      line-height: 6vh;
+      word-spacing: 1vh;
+      user-select: none;
+  }
+  
+  h2{
+      margin: 0;
+      position: relative;
+      right: 5vh;
+      display: inline-block;
+      top:10vh;
+      right: 90vh;
+      user-select: none;
+  }
+  
+  h2{
+    right: 94vh;
+    position: absolute;
+    top: 33vh;
+  }
+  .ba{
+      text-decoration: none;
+      color: black;
+  }
+  
+  .span2{
+      display: none;
+  }
+  
+  a{
+      color: blue;
+  }
+
+  .button-a{
+    text-decoration: none;
+    color: white;
+  }
+  .my-t-container{
+      position: relative;
+      right: 98vh;
+      top: .7vh;
+      width: 10vh;
+      height: 1vh;
+      display: inline;
+      word-spacing: 1.5vh;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  footer:hover .span1{
+      display: none;
+  }
+  
+  footer:hover .span2{
+      display: inline;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .option-c{
+    line-height: 4vh;
+  }
+  
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .box select {
+    text-align: center;
+    background-color: #187dcf;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    appearance: none;
+    outline: none;
+  }
+  
+  select {
+    -webkit-appearance: none;
+  }
+  
+  
+  .box::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box select option {
+    padding: 30px;
+  }
+  
